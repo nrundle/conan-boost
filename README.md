@@ -60,5 +60,5 @@ The expected output of this example project is the following:
 >2001-10-09  
 >Tuesday October 9, 2001  
 >An expected exception is next:  
->  Exception: Month number is out of range 1..12  
+> Exception: Month number is out of range 1..12  
 >  
