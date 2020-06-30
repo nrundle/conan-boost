@@ -56,8 +56,8 @@ If everything worked up until now, you should be able to run the example project
 
 The expected output of this example project is the following:
 
-| 2001-Oct-09
-| 2001-10-09
-| Tuesday October 9, 2001
-| An expected exception is next: 
-|   Exception: Month number is out of range 1..12
+> 2001-Oct-09
+> 2001-10-09
+> Tuesday October 9, 2001
+> An expected exception is next: 
+>   Exception: Month number is out of range 1..12
