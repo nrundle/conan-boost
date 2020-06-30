@@ -18,7 +18,7 @@ The example uses gcc 9 but should work with gcc 4.8+.
 CMake 3.13.4 is the minimum required version.
 Conan is needed and requires Python.
 
-For specific guidance, refer to the [Dockerfile](./blob/master/docker/Dockerfile)
+For specific guidance, refer to the [Dockerfile](./docker/Dockerfile)
 
 ## Configure conan
 This project uses the boost_date_time library from [boost](https://www.boost.org/) to demonstrate the conan package management.  This library has been repacked for conan by the [bincrafters](https://bincrafters.github.io/) group.
@@ -34,9 +34,9 @@ conan profile update settings.compiler.libcxx=libstdc++11 default
 ```
 
 ## Get dependencies and prep build
-The following command uses conan and the [conanfile.txt](./blob/master/conanfile.txt) in order to install the necessary project dependencies before building.
+The following command uses conan and the [conanfile.txt](./conanfile.txt) in order to install the necessary project dependencies before building.
 
-This will download the dependent packages from the [conanfile.txt](./blob/master/conanfile.txt) as well as any transitive dependencies, while building what can't be installed as a matching binary package.
+This will download the dependent packages from the [conanfile.txt](./conanfile.txt) as well as any transitive dependencies, while building what can't be installed as a matching binary package.
 
 `conan install . -if build --build=missing`
 
